@@ -25,7 +25,7 @@ void setup() {
 void loop() {
   // Loop code runs repeatedly
 
-  delay(1000);  // Delay for 1000 milliseconds (1 second)
+  delay(2000);  // Delay for 2000 milliseconds (2 second)
 
   unsigned int distance = sonar.ping_cm();
 
